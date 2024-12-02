@@ -1,0 +1,15 @@
+﻿{
+  "configurations": [
+    {
+      "name": "mingw",
+      "generator": "MinGW Makefiles",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_arm" ],
+      "buildRoot": "C:/Users/ewenc/Documents/s9/CG3/tp_ig-student/sfmlGraphicsPipeline/build",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "-G \"MinGW Makefiles\"",
+      "buildCommandArgs": "-- -j6",
+      "ctestCommandArgs": ""
+    }
+  ]
+}
